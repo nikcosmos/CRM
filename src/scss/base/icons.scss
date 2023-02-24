@@ -1,0 +1,42 @@
+i {
+   /* use !important to prevent issues with browser extensions that change fonts */
+   font-family: 'icon' !important;
+   speak: never;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1;
+   font-size: 24px;
+   /* Better Font Rendering =========== */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-product:before {
+   content: '\e900';
+}
+._icon-promote:before {
+   content: '\e901';
+}
+._icon-search:before {
+   content: '\e902';
+}
+._icon-arrow:before {
+   content: '\e903';
+}
+._icon-customers:before {
+   content: '\e904';
+}
+._icon-dashboard:before {
+   content: '\e905';
+}
+._icon-help:before {
+   content: '\e906';
+}
+._icon-income:before {
+   content: '\e907';
+}
+._icon-logo:before {
+   content: '\e908';
+}
